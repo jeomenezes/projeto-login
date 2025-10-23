@@ -62,7 +62,7 @@ Grandes Telas:  acima de 1200px de largura
         background-image: linear-gradient(to top, var(--color1), var(--color2));
     }
     section#login_board{
-        width: 70%;
+        width: 65%;
         max-width: 75%;
         height: 300px;
     
