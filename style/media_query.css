@@ -26,7 +26,7 @@ Grandes Telas:  acima de 1200px de largura
 
 @media screen and (min-width: 620px) and (max-width:992px){
     html, body{
-        background-image: linear-gradient(var(--color1), var(--color2));
+        background-image: linear-gradient(45deg, var(--color1), var(--color2));
     }
 
     section#login_board{
@@ -59,7 +59,7 @@ Grandes Telas:  acima de 1200px de largura
 
 @media screen and (min-width: 990px) {
     html, body{
-        background-image: linear-gradient(var(--color1), var(--color2));
+        background-image: linear-gradient(to top, var(--color1), var(--color2));
     }
     section#login_board{
         width: 70%;
