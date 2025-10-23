@@ -3,9 +3,46 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="img/jm_favicon/jm_favicon_m2.ico" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="style/main.css" media="all">
+        <link rel="stylesheet" href="style/media_query.css">
         <title>My login</title>
     </head>
+
     <body>
+        <main id="main_content">
+
+            <section id="login_board">
+                <div id="section_login_img">
+                    <img id="img_login" src="img/face_login.jpg" alt="Imagem da tela de login, paisagem com predios altos">
+                </div>
+
+                <div id="section_login_form">
+                    <h1>Login</h1>
+
+                    <p>Ola, seja bem-vindo (a) novamente. Faca o login para acessar a sua conta e assim poder fazer as configurações  no seu ambiente.</p>
+
+                    <form id="login_form" action="login.php" method="post" autocomplete="on">
+
+                        <div class="inputs" id="input_mail">
+                            <i id="mail_icone" class="material-icon">icon</i>
+                            <input type="email" name="email" id="i_email" placeholder="Seu E-mail" autocomplete="email" maxlength="30" required>
+                        </div>
+
+                        <div class="inputs" id="input_pass">
+                            <i id="pass_icone" class="material-icon">icon</i>
+                            <input type="password" name="pass" id="i_pass" placeholder="Sua senha" minlength="8" autocomplete="current-password" required>
+                        </div>
+
+                        <div><input id="btn_submit" type="submit" value="Entrar"></div>
+                        <a class="btn_form" href="equeci_pass.html" target="_self">Esqueci a senha <i id="sms_icone" class="material-icon"></i></a>
+
+                    </form>
+                </div>
+            </section>
+
+        </main>
         
     </body>
 </html>
