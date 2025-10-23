@@ -32,7 +32,7 @@ Grandes Telas:  acima de 1200px de largura
     section#login_board{
         width: 90%;
         max-width: 85%;
-        height: 300px;
+        height: 320px;
     
 
     }
@@ -40,11 +40,11 @@ Grandes Telas:  acima de 1200px de largura
     div#section_login_img{
         float: left;
         width: 40%;
-        height: 300px;
+        height: 100%;
     }
     img#img_login{
         width: 320px;
-        height: 300px;
+        height: 100%;
     }
 
     div#section_login_form{
