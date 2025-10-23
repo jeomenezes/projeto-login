@@ -71,7 +71,7 @@ img#img_login{
 
 div#section_login_form > h1{
     text-align: center;
-    margin: 10px;
+    margin: 5px;
 
 }
 div#section_login_form > p{
@@ -110,6 +110,12 @@ div#section_login_form{
 
 }
 
+div#section_login_form i{
+    vertical-align: middle;
+    color: white;
+
+}
+
 input#btn_submit{
     margin-top: 8px;
     width: 100%;
@@ -127,17 +133,22 @@ input#btn_submit:hover{
     background-color: #357c79;
 }
 
-.btn_form{
+.btn_reset_pass{
     display: block;
     text-decoration: none;
     color: black;
-    padding: 10px;
-    margin-top: 6px;
+    padding: 8px;
+    margin-top: 5px;
     text-align: center;
     border-radius: 6px;
     border: 2px dotted var(--color1);
     
 }
-.btn_form:hover{
+.btn_reset_pass:hover{
     text-decoration: underline dotted;
 }
+
+a#btn_reset > i#reset_pass_icone{
+    color: black;
+}
+

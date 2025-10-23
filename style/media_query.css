@@ -24,7 +24,7 @@ Grandes Telas:  acima de 1200px de largura
 /*Telas pequenas - tablets*/
 
 
-@media screen and (min-width: 760px) and (max-width:992px){
+@media screen and (min-width: 620px) and (max-width:992px){
     html, body{
         background-image: linear-gradient(var(--color1), var(--color2));
     }
