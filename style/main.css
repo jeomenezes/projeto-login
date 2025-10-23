@@ -69,6 +69,16 @@ img#img_login{
     animation: zoonInOut 10s infinite alternate;
 }
 
+div#section_login_form > h1{
+    text-align: center;
+    margin: 10px;
+
+}
+div#section_login_form > p{
+    text-align: justify;
+
+}
+
 div#section_login_form{
     padding: 14px;
     overflow: hidden;
